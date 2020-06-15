@@ -1,0 +1,51 @@
+apiVersion: v1
+entries:
+  cdn-local:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-06-15T12:12:51.341981649+05:30"
+    description: A Helm chart for M-CORD CDN Services in Local Edge
+    digest: 246046c08222309ad0e39d610a958a8ab784eec40b9f002452026780b66570ab
+    name: cdn-local
+    urls:
+    - cdn-local-0.2.3.tgz
+    version: 0.2.3
+  oaisim:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-06-15T12:12:51.342841892+05:30"
+    description: openairinterface5g eNB and UE
+    digest: a8a0d2ea36c88b2ae9b20902dac9a28f53096085a8a44b72b142fe36b080275c
+    name: oaisim
+    urls:
+    - oaisim-0.1.3.tgz
+    version: 0.1.3
+  omec-control-plane:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-06-15T12:12:51.345176084+05:30"
+    description: OMEC control plane services
+    digest: f22eb9174258344c0ad463ddc5dc6da712e4e18349880c2c52c5fec382b49d0c
+    name: omec-control-plane
+    urls:
+    - omec-control-plane-0.1.9.tgz
+    version: 0.1.9
+  omec-data-plane:
+  - apiVersion: v1
+    created: "2020-06-15T12:12:51.345736865+05:30"
+    description: OMEC data plane services
+    digest: 7249d262e14dc3edfe5794cf4d90e78bbf42a4603df876608e96d099ae79ab80
+    name: omec-data-plane
+    urls:
+    - omec-data-plane-0.1.5.tgz
+    version: 0.1.5
+  testtool:
+  - apiVersion: v1
+    created: "2020-06-15T12:12:51.346269319+05:30"
+    description: OMEC Test tool services
+    digest: 5532dcd1f7399f86dafd1fbf396ea586d6072f655a3ee85f2b67245dfe328377
+    name: testtool
+    urls:
+    - testtool-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-15T12:12:51.34044486+05:30"
